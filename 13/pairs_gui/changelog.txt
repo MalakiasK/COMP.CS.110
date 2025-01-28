@@ -1,0 +1,35 @@
+--Version 0.4 and earlier--
+	- See repository commits.
+
+--Version 0.5--
+	
+	- Added changelog.txt
+	- Added instructions.txt
+
+	- Bugfixes:
+		- Fixed a bug -> now only two cards can be shown at a given time.
+		- Fixed a memory leak regarding the saveScoresButton.
+		- Fixed a bug regarding saveScoresButton: if user doesn't save scores, 
+                  the button now disappears -> before disappeared only after saving.
+
+	- QOL:
+		- Removed unnecessary code.
+		- Removed unnecessary libraries.
+		- Renamed certain functions to fit their purpose better.
+		- Added comments to functions and necessary parts.
+			- In general cleaned up code.
+		- Disabled "Clear High Scores" button, as there is no implementation yet.
+		- Renamed end game texts to fit scene.
+		- Added functionality for "Quit" in toolbar
+
+	- Notes:
+
+		- Performed Valgrind -> no major errors.
+
+--Version 1.0--
+
+	- Edited instructions.txt
+		- Added "Table of Contents"
+		- Added "Extra Features"
+
+		

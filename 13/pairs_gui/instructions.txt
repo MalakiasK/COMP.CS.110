@@ -1,0 +1,104 @@
+#######///|\\\####### Code by Malakias Kosonen
+######////|\\\\######   Additional code from certain course projects. (See comments in code)
+#####////|||\\\\##### Images by Byron Knoll, and Bicycle.
+####////Pairs\\\\#### 
+###////|||||||\\\\### Made in C++ in 2021
+##////|||/|\|||\\\\##
+#////|||/|||\|||\\\\# --Version 1.0--
+
+Table of Contents:
+
+	1. Game rules
+	2. User Interface
+	  2.1 Main Menu
+	  2.2 Player Name Prompt
+	  2.3 Gameplay
+	  2.4 High Scores
+	3. Images
+	4. Extra Features
+
+
+1. Game rules:
+
+	A memory card game. 1-6* players are shown 5-52 pairs of poker cards. 
+	Players take turns to find matching pairs. If a player finds a pair, it is added to their
+	score. After finding a pair, the player can continue until they cannot find a pair.
+	When a pair is not found, it is the next player's turn. The game continues until 
+	all pairs have been found. The winner(s) is/are the player(s) with the most found pairs. 
+	So, the game can even possibly end in a tie.
+
+       *Amount can be changed in the code if necessary. 
+		- { See MAXIMUM_PLAYER_AMOUNT in <mainwindow.hh> }
+
+2. User Interface:
+
+	Upon starting the program, the user is greeted with a main menu.
+
+	"Quit" in toolbar can be slected at any given time, it ends and closes the program.
+
+2.1 Main Menu:
+
+	- "Amount of players:" A spinbox that determines the amout of players in the game.
+	- "Amount of Card Pairs:" A spinbox that determines the amount of card pairs in the
+                                  game
+	- "Start Game" Starts the game, prompts users to enter players' names.
+	- "Show High Scores" Shows high scores, which are stored in "Resources/highscores.txt"
+		- highscores.txt stores data in a csv-format.
+		- How To Read: "Player's Name ; Highest Score in a single game ; Lifetime Score"
+		- "Score" is the amount of pairs found.
+	- "Exit" Exits the program.
+
+2.2 Player Name Prompt:
+
+	- "Player #:" Enter a name for the player (High Scores will be saved with this name)
+		- Click the "Enter" button with the right-mouse click to enter the name.
+
+2.3 Gameplay:
+
+	After every player has entered their name, the game begins.
+	Text on the top-left corner of the window, tells which user's turn it is.
+	It also tells how many pairs that player currently has.
+
+	The game can be forfeited early by clicking "Quit to Main Menu", though scores will not be 	   saved.
+	When the game has ended, a button named "Save High Scores" will appear. Clicking this will
+	save the current game scores.
+
+2.4 High Scores:
+
+	High scores window shows the top 10** players ranked by their lifetime score.
+	If not enough players are in highscores.txt, extraneous positions will be empty.
+	
+	- "Main Menu" This button takes the user back to the main menu.
+	- "Clear High Scores" In the current version, this button does nothing.
+		- Future updates will add this functionality.
+
+      **Can be changed in code
+		- { See TOP_HIGH_SCORES in <mainwindow.hh> }
+
+3. Images:
+
+	Images for the playing cards are in the public domain. The backside of the card
+	is from the Bicycle Rider Back Playing Cards pack; it has been in production since 1887.
+	The playing card images themselves are from Byron Knoll.
+
+	Links:
+
+		- Byron Knoll: Playing Cards
+		  - http://byronknoll.blogspot.com/2011/03/vector-playing-cards.html
+		    - https://code.google.com/archive/p/vector-playing-cards/downloads
+		      - Version 1.3
+
+		- Bicycle Rider Back: Backside .png-file
+		  - https://www.artofplay.com/products/bicycle-rider-back-playing-cards
+
+4. Extra Features:
+
+	- Players 1-6*
+	- User can give names to players.
+	- Games can be played back-to-back without the need to reload the program.
+	- Includes leaderboards -> saved to a file highscores.txt
+		- Every players' data in a game can be saved.
+	- Cards have a backside image.
+	- Cards have different front images -> poker playing cards
+		  
+

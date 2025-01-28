@@ -1,0 +1,10 @@
+Mestari;3;9
+Matti;5;19
+Kimmo;5;8
+Malakias;5;15
+Hullu;50;60
+Janne;16;22
+Hoikka;3;3
+123;3;11
+Temmie;0;0
+Ijan;5;5

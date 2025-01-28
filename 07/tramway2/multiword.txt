@@ -1,0 +1,4 @@
+East;Hervannan kampus;0
+East;Fredrik 3 Katu;0.2
+East;Kirjasto;0.7
+East;Tampereen teknillisen yliopiston ruokala;1.0

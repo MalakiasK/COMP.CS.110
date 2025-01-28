@@ -1,0 +1,7 @@
+West;Pyynikintori;0.5
+North;Pyynikintori;0.5
+Northeast-Kissanmaa-42
+West;025;5
+Kouvola
+;def;hij
+a;b;c;d;
